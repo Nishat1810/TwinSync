@@ -1,0 +1,12 @@
+plugins { id 'com.android.application' }
+android {
+    namespace 'com.zoro.phonetwinsync'
+    compileSdk 35
+    defaultConfig {
+        applicationId 'com.zoro.phonetwinsync'
+        minSdk 26
+        targetSdk 35
+        versionCode 4
+        versionName "1.3"
+    }
+}
